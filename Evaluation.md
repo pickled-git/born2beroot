@@ -2,18 +2,15 @@
 
 - **Correction sheet**
   
-    [Born2beRoot Defense Checklist](https://docs.google.com/document/d/1-BwCO0udUP7MhRh81Y681zz0BalXtKFtte_FHJc6G4s/edit?pli=1)
-
-
-  
+    [Born2beRoot Defense Checklist](https://docs.google.com/document/d/1-BwCO0udUP7MhRh81Y681zz0BalXtKFtte_FHJc6G4s/edit?pli=1)  
     
-    ![Untitled](Born2beRoot%20512b46befde34df19fee06231fd38903/Untitled%2034.png)
+    ![Untitled](img/Untitled%2034.png)
     
-    ![Untitled](Born2beRoot%20512b46befde34df19fee06231fd38903/Untitled%2035.png)
+    ![Untitled](img/Untitled%2035.png)
     
-    ![Untitled](Born2beRoot%20512b46befde34df19fee06231fd38903/Untitled%2036.png)
+    ![Untitled](img/Untitled%2036.png)
     
-    ![Untitled](Born2beRoot%20512b46befde34df19fee06231fd38903/Untitled%2037.png)
+    ![Untitled](img/Untitled%2037.png)
 
   <aside>
 📌 Correction Sheet has not changed, except that CentOS has been replaced by Rocky.
