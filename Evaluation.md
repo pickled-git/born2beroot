@@ -114,7 +114,7 @@
         
         **Secure Socket Shell** is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network. It provides users with a strong password authentication as well as a public key authentication. It attempts to safely communicate encrypted data over two computers using an open network.
         
-    13. **How the script works.**
+    13. [**How the script works.**](https://github.com/pickled-git/born2beroot_full_guide/blob/main/Configuration.md#step-5---bash-script)
     14. **What is “cron” ?**
         
         **Cron** is a time-based job scheduler. It enables users to schedule jobs (commands or scripts) to run periodically at fixed times, dates, or intervals.
