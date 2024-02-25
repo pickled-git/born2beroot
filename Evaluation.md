@@ -1,8 +1,11 @@
 # **Evaluation**
 
 - **Correction sheet**
-    
-    https://docs.google.com/document/d/1-BwCO0udUP7MhRh81Y681zz0BalXtKFtte_FHJc6G4s/edit?pli=1
+  
+    [Born2beRoot Defense Checklist](https://docs.google.com/document/d/1-BwCO0udUP7MhRh81Y681zz0BalXtKFtte_FHJc6G4s/edit?pli=1)
+
+
+  
     
     ![Untitled](Born2beRoot%20512b46befde34df19fee06231fd38903/Untitled%2034.png)
     
@@ -11,6 +14,11 @@
     ![Untitled](Born2beRoot%20512b46befde34df19fee06231fd38903/Untitled%2036.png)
     
     ![Untitled](Born2beRoot%20512b46befde34df19fee06231fd38903/Untitled%2037.png)
+
+  <aside>
+📌 Correction Sheet has not changed, except that CentOS has been replaced by Rocky.
+
+</aside>
     
 - **Theory**
     1. **How does a virtual machine work ?**
@@ -103,8 +111,6 @@
         
         A firewall is a critical component of network security. It controls incoming and outgoing network traffic based on predefined rules, acting as a barrier between a secure internal network and potentially unsafe external networks. 
         
-         'Firewall', in turn, is a security device responsible for monitoring the information and data traffic from your local computer to the network.
-        
         UFW allows you to create allow/deny rules based on simple parameters such as application name, port number, and IP address.
         
     12. **What's SSH and what's the value of using it ?**
@@ -120,7 +126,7 @@
     - Check that the signature contained is identical to that of the ".vdi" file of the virtual machine to be evaluated.
         
         ```bash
-        cat /mnt/nfs/homes/oprosvir/Documents/curric/B2B/signature.txt && sha1sum /mnt/nfs/homes/oprosvir/sgoinfre/goinfre/Perso/oprosvir/Debian/Debian.vdi
+        cat /directory/file/signature.txt && sha1sum /directory/image/Debian.vdi
         ```
         
     - The machine should not have a graphical environment at launch.
@@ -179,12 +185,12 @@
     - Check that the hostname of the machine is correctly formatted as follows: login42 `hostnamectl`.
     - Modify hostname to replace your login with the evaluator's. Then restart your virtual machine and restore the machine to the original name (just do the same thing under **root**).
     
-    ```bash
-    sudo hostnamectl set-hostname <new_hostname>
+        ```bash
+        sudo hostnamectl set-hostname <new_hostname>
     
-    # change the hostname in this file too
-    sudo nano /etc/hosts
-    ```
+        # change the hostname in this file too
+        sudo nano /etc/hosts
+        ```
     
     - Check the partitions for your VM (compare the output with the example in the subject) - `lsblk`.
     - Check that the sudo program is properly installed on the virtual machine
@@ -221,7 +227,7 @@
         ```
         
     - Try to run a command via sudo and see if the files above have been updated.
-    - Check that the UFW program is installed on your VM and that is working properly `dpkg -l | grep ufw -`or `sudo ufw status`.
+    - Check that the UFW program is installed on your VM and that is working properly `sudo ufw status`.
     - List the active rule in UFW. A rule must exist for port 4242 `sudo ufw status numbered`.
     - Add a new rule to open port 8080 `sudo ufw allow 8080`.
     - Check that it has been added to the active rules `sudo ufw status numbered`.
