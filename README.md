@@ -30,3 +30,5 @@ Use my guide with caution and remember that you must understand everything you a
 * [Installation](https://github.com/pickled-git/born2beroot_full_guide/blob/main/Installation.md#installation)
 * [Configuration](https://github.com/pickled-git/born2beroot_full_guide/edit/main/Configuration.md#configuration)
 * [Evaluation](https://github.com/pickled-git/born2beroot_full_guide/blob/main/Evaluation.md#evaluation)
+
+Subject version: 3.1.
